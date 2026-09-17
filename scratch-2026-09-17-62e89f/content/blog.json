@@ -1,0 +1,24 @@
+{
+  "posts": [
+    {
+      "slug": "lancement-du-sec",
+      "date": "2026-01-28",
+      "title_fr": "Lancement du SEC",
+      "excerpt_fr": "Le SEC est officiellement lancé : voici pourquoi et comment on compte représenter les étudiant·es d'HEC.",
+      "body_fr": "Le **SEC** est né d'une envie simple : donner aux étudiant·es d'HEC un espace sûr pour faire remonter ce qui ne va pas, et peser collectivement face à l'administration.\n\nDans les semaines qui viennent, on va mettre en place :\n\n- un système de remontée de problèmes, confidentiel ;\n- des pétitions ouvertes à tout le monde ;\n- un blog pour vous tenir au courant de nos actions.\n\nOn vous tient au courant ici.",
+      "title_en": "Launching SEC",
+      "excerpt_en": "SEC is officially launched: here's why and how we plan to represent HEC students.",
+      "body_en": "**SEC** was born from a simple idea: give HEC students a safe space to raise issues, and push collectively with the administration.\n\nIn the coming weeks, we're setting up:\n\n- a confidential way to report issues;\n- petitions open to everyone;\n- a blog to keep you posted on what we're doing.\n\nMore soon."
+    },
+    {
+      "slug": "premiere-reunion",
+      "date": "2026-02-17",
+      "title_fr": "Compte-rendu de la réunion de lancement",
+      "excerpt_fr": "Retour sur notre réunion du 17 février : qui était là, ce qu'on a décidé, et la suite.",
+      "body_fr": "Merci à toutes les personnes venues à la réunion de lancement du 17/02. On a posé les bases de nos priorités pour ce semestre.\n\nProchaine étape : la mise en ligne officielle de ce site, avec le formulaire de remontée et nos premières pétitions.",
+      "title_en": "Kickoff meeting recap",
+      "excerpt_en": "A recap of our February 17 meeting: who showed up, what we decided, and what's next.",
+      "body_en": "Thanks to everyone who came to the February 17 kickoff meeting. We set our priorities for this semester.\n\nNext step: officially launching this site, with the issue-reporting form and our first petitions."
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "petitions": [
+    {
+      "slug": "exemple-petition",
+      "status": "open",
+      "title_fr": "Exemple de pétition (à remplacer)",
+      "description_fr": "Ceci est un exemple. Remplacez ce texte par la description de votre première pétition depuis l'interface d'administration (/admin).",
+      "title_en": "Sample petition (replace me)",
+      "description_en": "This is a placeholder. Replace this text with your first real petition from the admin interface (/admin).",
+      "google_form_action": "",
+      "entry_name": "",
+      "entry_email": "",
+      "entry_anonymous": "",
+      "sheet_csv_url": ""
+    }
+  ]
+}
