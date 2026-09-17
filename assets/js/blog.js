@@ -1,6 +1,7 @@
 (function () {
   var lang = document.documentElement.lang === "en" ? "en" : "fr";
   var t = window.SEC_STRINGS[lang];
+  var root = window.SEC_ROOT || "";
 
   function fmtDate(iso) {
     var d = new Date(iso + "T00:00:00");
@@ -12,7 +13,7 @@
   }
 
   function loadPosts() {
-    return fetch("/content/blog.json")
+    return fetch(root + "content/blog.json")
       .then(function (r) {
         if (!r.ok) throw new Error("http " + r.status);
         return r.json();
@@ -43,7 +44,7 @@
         listEl.innerHTML = posts
           .map(function (p) {
             return (
-              '<a class="card" href="/' + lang + '/blog/post.html?slug=' + encodeURIComponent(p.slug) + '">' +
+              '<a class="card" href="' + root + lang + '/blog/post.html?slug=' + encodeURIComponent(p.slug) + '">' +
               "<h3>" + (p["title_" + lang] || "") + "</h3>" +
               '<div class="meta">' + fmtDate(p.date) + "</div>" +
               "<p>" + (p["excerpt_" + lang] || "") + "</p>" +

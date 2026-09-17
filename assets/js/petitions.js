@@ -5,9 +5,10 @@
 (function () {
   var lang = document.documentElement.lang === "en" ? "en" : "fr";
   var t = window.SEC_STRINGS[lang];
+  var root = window.SEC_ROOT || "";
 
   function loadPetitions() {
-    return fetch("/content/petitions.json")
+    return fetch(root + "content/petitions.json")
       .then(function (r) {
         if (!r.ok) throw new Error("http " + r.status);
         return r.json();
@@ -31,7 +32,7 @@
           .map(function (p) {
             var closed = p.status === "closed";
             return (
-              '<a class="card" href="/' + lang + '/petitions/petition.html?slug=' + encodeURIComponent(p.slug) + '">' +
+              '<a class="card" href="' + root + lang + '/petitions/petition.html?slug=' + encodeURIComponent(p.slug) + '">' +
               (closed ? '<span class="badge-closed">' + t.petition_closed + "</span>" : "") +
               "<h3>" + (p["title_" + lang] || "") + "</h3>" +
               "<p>" + (p["description_" + lang] || "") + "</p>" +

@@ -20,7 +20,7 @@ Chaque billet de blog / pétition contient ses champs FR et EN dans la même ent
 ### 1. Créer le dépôt GitHub et activer GitHub Pages
 1. Créez un dépôt GitHub (public, gratuit) et poussez ce dossier dedans.
 2. Dans **Settings → Pages**, choisissez la branche `main` et le dossier `/ (root)`.
-3. Le site sera servi sur `https://<votre-compte>.github.io/<repo>/`. Si vous voulez un domaine à la racine (`secetudiant.fr` par exemple, ~10€/an) et que vous préférez éviter le sous-dossier `/repo/`, configurez un domaine personnalisé dans les mêmes réglages — sinon il faudra préfixer tous les liens absolus (`/fr/...`) de ce projet par `/<repo>/`.
+3. Le site sera servi sur `https://<votre-compte>.github.io/<repo>/`. Tous les liens/scripts du site sont en chemins relatifs, donc ça marche aussi bien à cette adresse qu'avec un domaine personnalisé configuré dans les mêmes réglages — aucune adaptation nécessaire.
 
 ### 2. Formulaire de contact (Formspree)
 1. Créez un compte gratuit sur [formspree.io](https://formspree.io) avec `syndicatdesetudiantsencommerce@gmail.com`.

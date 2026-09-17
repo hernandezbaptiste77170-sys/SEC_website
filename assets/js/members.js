@@ -15,7 +15,7 @@
   }
 
   grid.innerHTML = '<p class="skeleton">' + t.loading + "</p>";
-  fetch("/content/members.json")
+  fetch((window.SEC_ROOT || "") + "content/members.json")
     .then(function (r) {
       if (!r.ok) throw new Error("http " + r.status);
       return r.json();

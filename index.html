@@ -5,12 +5,14 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>SEC</title>
 <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="assets/css/style.css">
 <script>
   // Best-effort auto-redirect to the visitor's language. The links below are the
   // real fallback for no-JS, slow connections, or a language we didn't detect.
+  // Relative (not "/fr/...") so this also works under a GitHub Pages project
+  // sub-path like https://user.github.io/repo/.
   var lang = (navigator.language || "fr").toLowerCase().indexOf("fr") === 0 ? "fr" : "en";
-  window.location.replace("/" + lang + "/index.html");
+  window.location.replace(lang + "/index.html");
 </script>
 </head>
 <body>
@@ -18,8 +20,8 @@
     <h1>SEC</h1>
     <p class="lede">Choose your language / Choisissez votre langue</p>
     <div class="button-row">
-      <a class="btn btn-primary" href="/fr/index.html">Français</a>
-      <a class="btn btn-primary" href="/en/index.html">English</a>
+      <a class="btn btn-primary" href="fr/index.html">Français</a>
+      <a class="btn btn-primary" href="en/index.html">English</a>
     </div>
   </main>
 </body>
