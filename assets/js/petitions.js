@@ -1,5 +1,5 @@
-// Petition data (title/description) lives in content/petitions.json, editable from
-// /admin. Signatures themselves are NOT stored in this repo: each petition is wired
+// Petition data (title/description) lives in content/petitions.json, edited directly
+// in that file. Signatures themselves are NOT stored in this repo: each petition is wired
 // to its own Google Form (free, no-code) whose responses land in a Google Sheet.
 // See README.md "Configuring a petition" for the one-time setup per petition.
 (function () {

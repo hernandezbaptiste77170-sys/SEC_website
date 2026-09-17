@@ -1,12 +1,8 @@
 {
   "members": [
-    { "name": "Baptiste Hernandez", "photo": "" },
-    { "name": "Hugues Hamon", "photo": "" },
-    { "name": "Quentin Oulie", "photo": "" },
-    { "name": "Jeanne Cunéo", "photo": "" },
-    { "name": "Capucine Du Roure", "photo": "" },
-    { "name": "Arthur Bert-Lépingle", "photo": "" },
-    { "name": "Axel Bardon", "photo": "" },
-    { "name": "Hadrien Leulliot", "photo": "" }
+    { "name": "Arthur Bert", "photo": "" },
+    { "name": "Victoria Tran", "photo": "" },
+    { "name": "Chloé Carrasco", "photo": "" },
+    { "name": "Raphael Gigon", "photo": "" }
   ]
 }

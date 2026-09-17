@@ -30,8 +30,8 @@
           status.className = "form-status visible success";
           status.textContent =
             lang === "fr"
-              ? "Merci, votre message a bien été envoyé. Nous ne le rendrons pas public."
-              : "Thanks, your message was sent. We won't make it public.";
+              ? "Votre message a bien été envoyé."
+              : "Your message has been sent.";
           form.reset();
         } else {
           throw new Error("http " + r.status);
